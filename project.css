@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-position: fixed;
+    background-attachment: fixed;
+    box-sizing: border-box;
+
+    
+}
+aside{
+    list-style: none;
+}
+.heading aside{
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /* left: 50%; */
+    padding: 100px;
+    color: white;
+
+    list-style: none;
+    
+}
+.sedo{
+    left: 50%;
+}
+.go{
+    left: 100%;
+}
+.heading{
+    background: url(fasssshion.webp) fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.header{
+    list-style: none;
+    display: flex;
+    /* gap: 100px; */
+    justify-content: space-between;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-left: 20px;
+    /* position: fixed; */
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    /* display: flex; */
+}
+.head{
+    display: flex;
+    gap: 40px;
+}
+.love{
+    padding-top: 200px;
+    font-size: 29px;
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+}
+.love p{
+    font-size: 23px;
+}
+.love button{
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+.love button a{
+    color:tan;
+}
+marquee{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.product img{
+    width: 400px;
+    height: 400px;
+}
+.product{
+    display: flex;
+    gap: 40px;
+    padding-top: 50px;
+    padding-left: 35px;
+    font-size: 20px;
+    color:rgb(46, 44, 44);
+    
+}
+.product h2{
+    padding-top: 30px;
+}
+.product p{
+    font-size: 18px;
+    color: grey;
+    padding-top: 15px;
+}
+.product button{
+    border: none;
+    padding: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+    color:black;
+}
+.header a:hover{
+    cursor:pointer;
+    border: 1px dotted black ;
+    color: black;
+    transition: ease-out;
+    transition: cubic-bezier(0, 0, 1, 1);
+    transition-duration: 1.5s;
+}
+.love button a:hover{
+    cursor:all-scroll;
+    background-color: bisque;
+    color: black;
+    transition: ease-out;
+    transition: cubic-bezier(0, 0, 1, 1);
+    transition-duration: 1.5s;
+}
+.sam{
+    background-color: black  ;
+    height: 100vh;
+    margin-top: 50px;
+}
+.sam img{
+    margin-top: -250px;
+    padding-left: 500px;
+    height: 80vh;
+
+}
+.sam p{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-top: 200px;
+    color: white;
+
+}
+.keys{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+.keys p{
+    font-weight: lighter;
+    font-size: 30px;
+}
+.sike{
+    background-color:rgba(199, 199, 199, 0.911);
+    margin-top: 70px;
+    height: 130vh;
+    
+}
+.sike img{
+    padding-top: 50px;
+    height: 90vh;
+    margin-left: 130px;
+    /* animation-name: sike;
+    animation-duration: 5s;
+    animation-timing-function: cubic-bezier(0,0,1,1); */
+}
+.sike p{
+    padding-left: 100px;
+    padding-top:20px;
+    font-size: 35px;
+    font-weight: bolder;
+    
+}
+    /* @keyframes sike {
+    0%{
+         height: 50vh; translate: -200px; margin: 50px;
+    }
+    25%{
+        height: 50vh;  translate: 50px;
+    }
+    50%{
+        height: 50vh;  translate: 100px;
+    }
+    75%{
+        height: 50vh;  translate: 200px;
+    }
+    }  */
+
+#shoe{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+.bea{
+    display: flex;
+
+}
+.bea img{
+    padding-top: 70px;
+    padding-left: 30px;
+    height: 60vh;
+}
+.bea p{
+    padding-top: 100px;
+    padding-left: 30px;
+    font-size: 35px;
+    font-weight: lighter;
+    font-family:'Times New Roman', Times, serif;
+}
+.end{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.end img{
+    height: 65vh;
+    border-radius: 50px;
+}
+footer{
+    background-color: rgba(199, 199, 199, 0.911);
+    height: 50vh;
+    margin-top: 70px;
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-around;
+
+}
+footer a{
+    
+    color: black;
+}
+footer h2{
+    /* text-align: center; */
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+#but{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.ten li{
+    list-style: none;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+    
+
+.eleven li{
+    list-style: none;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+
+.twelve li{
+    list-style: none;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+@media(max-width:1024px) {
+    body{
+        overflow-x: hidden;
+    }
+    .header h1 a{
+        font-size: 50px;
+    }
+    .heading{
+        background: url(fasssshion.webp);
+        height: 80vh;
+        overflow-x: hidden;
+        background-size: cover;
+        width: 100vw;
+        background-position: center;
+        
+    }
+    .header li a{
+        display: none;
+    }
+    .love{
+        font-size: 30px;
+    }
+    marquee{
+        display: none;
+    }
+    .product {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        
+    }
+    button{
+        /* text-align: center; */
+        place-items: center;
+    }
+    .sam{
+        height: 45vh;
+        /* width: 70vw; */
+        place-items: center;
+        position: relative;
+        
+        
+    }
+    .sam p{
+        font-size: 20px;
+        padding-top: 150px;
+    }
+    .sam img{
+        position: absolute;
+        /* margin-left: -200px; */
+        width:95vw;
+        /* bottom: ; */
+        object-fit: contain;
+        top: 50px;
+        /* bottom: 10px; */
+        right: 20px;
+        left: 30px;
+
+    }
+    .keys{
+        font-size: 20px;
+    }
+    .keys p{
+        font-size: 20px;
+    }
+    .sike{
+        height: 80vh;
+        width: 70vw;
+        margin-left: 50px;
+    }
+    .sike p{
+        font-size: 20px;
+        /* margin-left: -50px; */
+    }
+    .sike img{
+        height: 30vh;
+        display: grid;
+    }
+    #shoe{
+        display: none;
+    }
+    .bea{
+        display: grid;
+        margin-left: 20px;
+    }
+    .bea img{
+        height: 35vh;
+    }
+    .bea p{
+        font-size: 26px;
+    }
+    .end{
+        display: grid;
+        margin-left: 50px;
+    }
+    .end img{
+        height: 40vh;
+        /* margin-left: 70px; */
+    }
+    footer{
+        gap: 35px;
+        height: 30vh;
+        object-fit: contain;
+        overflow-x: hidden;
+    }
+}
+@media (max-width:767px){
+    body{
+        overflow-x: hidden;
+    }
+    .heading{
+        background: url(fasssshion.webp);
+        height: 100vh;
+        width: 150vw;
+        background-size: cover;
+        background-position: center;
+    }
+    .love{
+        font-size: 23px;
+    }
+    .product {
+        align-items: center;
+        margin-left: 50px;
+    }
+    .sam{
+        width: 150vw;
+    }
+    .sam p{
+        font-size: 30px;
+        padding-top: 28px;
+        /* padding-bottom: 100px; */
+    }
+    .sam img{
+        display: none;
+    }
+    .keys {
+        padding-left: 90px;
+    }
+    .sike{
+        width: 100vw;
+        height: 100vh;
+        margin-left:70px;
+    }
+    .sike p{
+        font-size: 27px;
+        padding-left: 30px;
+        padding-top: 70px;
+
+    }
+    .bea{
+        margin-left: 50px;
+    }
+    .bea p{
+        padding-top: 30px;
+    }
+    .bea p br{
+        display: none;
+        font-weight: lighter;
+    }
+    .end{
+        margin-left: 100px;
+    }
+    footer{
+        width: 150vw;
+        /* height: 100vh; */
+    }
+    
+}
+
+
+
+
+

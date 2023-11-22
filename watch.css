@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.watch{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 150px;
+    padding-top: 15px;
+    font-weight: lighter;
+}
+.watch h2 a{
+    text-decoration: none;
+    color: black;
+}
+.apple{
+    display: flex;
+    
+}
+.fall img{
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.love{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+
+}
+.love h2{
+    font-size: 80px;
+    
+}
+.love p{
+    font-size: 28px;
+    color: gray;
+    font-weight: bolder;
+}
+.love h3{
+    font-size: 28px;
+    padding-top: 40px;
+}
+.joy img{
+    height: 70vh;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.joy h1{
+    font-size: 90px;
+    text-align: center;
+    color: orangered;
+}
+.joy p{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.pod img{
+    margin-top: 100px;
+    height:95vh;
+    padding-left: 30px;
+}
+.house {
+    text-align: center;
+    padding-top: 50px;
+}
+.house h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.house p{
+    font-size: 28px;
+    padding-top: 25px;
+    color: rgba(0, 0, 0, 0.849);
+}
+.pox{
+    background-color: beige;
+    height: 80vh;
+    border-radius: 50px;
+    display: flex;
+    margin: 40px;
+}
+.pox img{
+    height: 60vh;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.pox p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+footer{
+    background-color: black;
+    height: 50vh;
+    margin-top: 70px;
+    display: flex;
+    gap: 200px;
+    
+
+}
+footer a{
+    
+    color: white;
+}
+footer h2{
+    /* text-align: center; */
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-size: 25px;
+    color: white;
+}
+#but{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.ten li{
+    list-style: none;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 5px;
+    color: white;
+}
+    
+
+.eleven li{
+    list-style: none;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 5px;
+    color: white;
+}
+
+.twelve li{
+    list-style: none;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 5px;
+    color:white;
+}
+
